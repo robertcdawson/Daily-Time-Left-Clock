@@ -1,0 +1,30 @@
+---
+description: Description of this app
+globs: 
+---
+# App Description
+
+## App Name (Working Title): 
+
+Daily Time Left Clock
+
+## Concept:
+This web app is a simple web app that helps users visualize how much time they have left in their day. It uses a dynamic, visually engaging metaphor where a small “sun" icon travels around the perimeter of a large circle. This circle represents the user's entire awake period—from their specified wake time to their sleep time. As the day progresses, the sun moves along the circle, and the background transitions smoothly from morning hues to evening tones, giving users an intuitive and aesthetically pleasing way to grasp the passage of time.
+
+## Key Features:
+
+### User-Defined Day Boundaries:
+- Wake Time & Sleep Time Input: Users can set their specific wake and sleep times, defining the start and end of their day.
+
+### Visual Time Representation:
+- Large Circle as a Day Frame: The circle's border symbolizes the entire waking period.
+- Moving Sun Icon: A smaller circle (or sun) travels along the perimeter. Its position is determined by the fraction of the day that has elapsed.
+
+### Dynamic Background Transition:
+- Color Shifts: The background color transitions gradually—from colors representing early morning to those signifying dusk—mirroring the natural progression of the day.
+
+### Responsive Design:
+- Mobile and Desktop Support: The layout is optimized for portrait mode on smartphones (with a centered circular design) and adapts to wider desktop viewports (by possibly integrating additional side-panel details or a horizontal arc layout).
+
+### Real-Time Updates:
+- Smooth Animations: The sun's movement and the background transition update in real time (e.g., every minute) to reflect the current time accurately.

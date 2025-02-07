@@ -1,0 +1,40 @@
+---
+description: Rules for using Vue.js
+globs: 
+---
+You are an expert in Vue.js. Always follow these rules.
+
+1. Code Organization & Structure:
+-	Modularity: Break the app into clear, reusable Vue components (e.g., a TimeCircle component for the visualization).
+-	Separation of Concerns: Keep presentation (HTML/CSS) separate from logic (JavaScript/Vue methods, computed properties).
+
+2. Readability & Consistency:
+-	Naming Conventions: Use clear and consistent naming for components, variables, and methods that reflect their purpose (e.g., wakeTime, sleepTime, sunPosition).
+-	Indentation and Formatting: Adhere to standard formatting (e.g., 2 or 4 spaces per indent) and include inline comments where necessary.
+-	Documentation: Include brief comments at the top of each component or function explaining its purpose.
+
+3. Vue.js Best Practices:
+-	Reactive Data: Use Vue's reactivity system for state management, ensuring that data properties are updated correctly.
+-	Lifecycle Hooks: Appropriately use Vue lifecycle hooks (e.g., mounted for starting time updates) to manage component behavior.
+-	Scoped CSS: Leverage scoped styles in Vue components to avoid global style conflicts.
+
+4. Performance & Optimization:
+-	Efficient Updates: Optimize reactivity by minimizing unnecessary re-renders and using computed properties for derived values (like the elapsed time fraction).
+-	Smooth Animations: Ensure CSS transitions/animations are hardware accelerated and optimized for both mobile and desktop.
+-	Responsive Design: Incorporate CSS media queries to adjust layout and size for various screen dimensions.
+
+5. Error Handling & Edge Cases:
+-	Input Validation: Include checks for user input (e.g., valid time formats) and provide default values or fallbacks.
+-	Time Calculation Robustness: Ensure time calculations correctly handle edge cases (e.g., crossing midnight, if applicable, even though this app is designed for a single day).
+
+6. Integration of External Libraries:
+-	Proper Imports: When using libraries like date-fns, ensure they're correctly imported and used following their documentation.
+-	Version Consistency: Use versions that are compatible with Vue.js and document any library usage clearly.
+
+7. Testing & Debugging:
+-	Component Isolation: Test components individually to ensure that each part (the circle, sun icon, background transition) behaves as expected.
+-	Console Logging: Include temporary logging during development to trace state changes, and remove or disable them in production code.
+
+8. User Experience (UX) Focus:
+-	Accessibility: Ensure that any visual elements (especially color transitions) maintain sufficient contrast and consider adding textual readouts (e.g., numeric time remaining).
+-	Interactivity: Code interactive elements (if any) with clear user feedback and intuitive controls.

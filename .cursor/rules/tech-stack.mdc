@@ -1,0 +1,27 @@
+---
+description: Tech stack for this app
+globs: 
+---
+# Tech Stack
+
+## Front-End Framework:
+- Vue.js: A lightweight, progressive JavaScript framework for building user interfaces with reactivity and component-based architecture.
+
+## Markup and Styling:
+- HTML5: For semantic structure.
+- CSS3: For styling, including responsive design, animations, and smooth background transitions.
+- Optional: CSS preprocessors like SASS or LESS if you need advanced styling features.
+
+## Scripting and Data Handling:
+- JavaScript (ES6+): For business logic, time calculations, and DOM manipulation.
+- SVG: For drawing the large circle and animating the sun icon, ensuring scalability and crisp graphics across devices.
+
+## Development and Build Tools:
+- Vue CLI or Vite: For scaffolding the Vue.js project, handling hot-reload, and bundling assets.
+- NPM: As the package manager for dependencies.
+
+## Optional Libraries:
+- date-fns or Day.js: For robust date/time calculations (though native JavaScript Date functions might suffice for simple arithmetic).
+
+## Local Hosting:
+- A simple static file server (e.g., using the serve package or the VS Code Live Server extension) for local testing and development.

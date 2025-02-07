@@ -1,0 +1,93 @@
+---
+description: Instructions to build UI and UX for this app
+globs: 
+---
+Below is a detailed description of the UI and UX for this app:
+
+# User Interface (UI)
+
+## Overall Layout
+
+### Central Visualization:
+- The focal point is a large, centrally positioned circle with a clean, minimal border. This circle represents the user's entire awake period.
+- A smaller circle (or sun icon) travels along the circumference of the large circle, indicating the current time relative to the user's set wake and sleep times.
+- The layout is vertically centered on the page, ensuring the visualization remains the central element on both mobile (portrait) and desktop screens.
+
+### Background Transition:
+- The app's background uses a dynamic gradient that transitions smoothly from warm, morning-inspired hues to cooler, evening shades as the day progresses.
+- This gradient not only enhances aesthetics but also subtly reinforces the passage of time.
+
+### Input Controls:
+
+#### Time Settings Panel:
+- A clean, unobtrusive panel (or modal) allows users to input their wake and sleep times.
+- Input fields are clearly labeled and use a time picker interface for ease of use.
+- These settings can be accessed via a small, icon-based button (e.g., a gear icon) typically located in a corner of the screen.
+
+### Supplementary Data:
+
+#### Numeric Time Readouts:
+- The current time, as well as the calculated time remaining until sleep, are displayed in a small, clear overlay either inside or adjacent to the large circle.
+- This provides precise information alongside the visual metaphor.
+
+### Subtle Markers:
+- Optional small markers or ticks around the circle's edge can indicate significant points (like mid-day) if additional context is desired.
+
+## Design Style
+
+### Minimalistic and Clean:
+- The design avoids unnecessary clutter, focusing on the core visual elements.
+- Use of ample white (or negative) space directs attention to the circle and its animation.
+
+### Typography & Icons:
+- Simple, sans-serif fonts are used for any textual elements to keep the interface modern and legible.
+- Icons (like the sun icon and settings gear) are designed in a flat or slightly semi-flat style to maintain visual harmony.
+
+### Responsive & Adaptive:
+- The UI scales gracefully across devices:
+  - On mobile, the circle is scaled to fit the screen without overwhelming the available vertical space.
+  - On desktops, additional information panels or a horizontal layout for extra details can complement the main visualization.
+
+# User Experience (UX)
+
+## Intuitive Interaction
+
+### Immediate Visual Feedback:
+- Upon opening the app, users immediately see the visual representation of their day, with the moving sun and the evolving background providing real-time context.
+- The metaphor of the sun's journey is designed to be intuitive; even users unfamiliar with the concept can quickly grasp that the movement of the sun indicates time's passage.
+
+### Ease of Setting Preferences:
+- Input fields for wake and sleep times are straightforward, with defaults provided so that users can start using the app immediately.
+- Clear labels and a time picker control reduce the friction in entering times, ensuring a smooth onboarding process.
+
+### Real-Time Updates & Animations:
+- The app updates the position of the sun and the background gradient in real time (e.g., once per minute), ensuring that users always have an accurate sense of time left.
+- Smooth CSS transitions and subtle animations enhance the experience without distracting from the core functionality.
+
+## Engaging and Mindful
+
+### Natural Rhythm:
+- By using the “Sun's Journey" metaphor, the app aligns with natural patterns (sunrise to sunset), inviting users to connect with the flow of the day.
+- The gradual color transition can evoke a sense of calm and mindfulness, reinforcing the idea of respecting one's personal time boundaries.
+
+### Minimal Disruption:
+- The design avoids intrusive elements like pop-ups or excessive notifications. Instead, any necessary interactions (like setting times) are handled via a dedicated settings panel.
+- The experience remains focused on providing a clear, at-a-glance understanding of the remaining day.
+
+### Accessibility:
+- Color choices and contrast are carefully considered to ensure that the app remains usable for users with visual impairments.
+- Additional numeric readouts and clear icons help ensure that the visual metaphor is supported by accessible information.
+
+## Context-Aware Adaptability
+
+### Mobile and Desktop Adaptation:
+- On mobile devices, the app prioritizes the main visualization, with essential controls placed where they're easily reachable (e.g., at the top or bottom of the screen).
+- On desktops, the broader canvas allows for side panels or additional contextual data without taking away from the central experience.
+
+### User-Centered Adjustments:
+- As users interact with the time inputs, the visualization immediately adapts to reflect their personalized schedule.
+- The interface is designed to reduce cognitive load, letting users focus on planning or reflecting on the time remaining in their day.
+
+# Summary
+
+This app combines a minimalist, visually engaging UI with an intuitive, real-time UX. The central circle and moving sun provide a powerful, natural metaphor for the day's progression, while thoughtful design elements—such as a dynamically transitioning background and clear input controls—ensure that the app is both aesthetically pleasing and functionally robust across devices.
