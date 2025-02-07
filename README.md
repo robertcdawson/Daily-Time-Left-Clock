@@ -2,6 +2,8 @@
 
 A simple, elegant web application that helps you visualize how much time you have left in your day. The app features a circular visualization where a "sun" travels around the perimeter of a circle, representing the progression of time between your wake and sleep times.
 
+![Daily Time Left Clock Preview](docs/screenshots/Screenshot%202025-02-06%20at%2011.17.50%20PM.png)
+
 ## Features
 
 - Visual time tracking with an intuitive circular design
